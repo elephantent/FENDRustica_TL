@@ -1,7 +1,52 @@
 :root {
   /* Colors */
   --div-color: red;
+  --white: #FFFFFF;
+  --anthrazit: #1A1A1A;
+  --kraftpapier: #D7BE9D;
+  --petrol: #006D7E;
+  --rosa: #EDD1C9;
+  --orange: #D77C12;
+  --medium-gray: #737373;
+  --light-grey: #E9E9E9;
+  --hover-grey: #3A3734;
+  --background-grey: #e5e5e5;
+  --black: black;
 
   /* Text Styles */
-  --h2-font-size: 26px;
+  /*mobil*/
+  --h1-font-size: 64px;
+  --h1-font-weight: 900;
+  --h1-line-height: 1,1%;
+
+  --h2-font-size: 36px;
+  --h2-font-weight: 900;
+  --h2-line-height: 1,1%;
+
+  --h3-font-size: 32px;
+  --h3-font-weight: 900;
+  --h3-line-height: 1,1%;
+
+  --text-font-size: 14px;
+  --text-font-weight: 400;
+  --text-line-height: 1,4%
+
+  /* desktop */
+
+  --h1-d-font-size: 96px;
+  --h1-d-font-weight: 900;
+  --h1-d-line-height: 1,1%;
+
+  --h2-d-font-size: 48px;
+  --h2-d-font-weight: 900;
+  --h2-d-line-height: 1,1%;
+
+  --h3-d-font-size: 42px;
+  --h3-d-font-weight: 900;
+  --h3-d-line-height: 1,1%;
+
+  --body-d-font-size: 18px;
+  --body-d-font-weight: 400;
+  --body-d-line-height: 1,3%;
+
 }
