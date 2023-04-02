@@ -36,7 +36,8 @@ h1 {
   color: var(--white);
 }
 
-h2 {
+/*h2 on the main page*/
+.h2-main {
   font-size: var(--h2-font-size);
   font-weight: var(--h2-font-weight);
   line-height: var(--h2-line-height);
@@ -60,7 +61,8 @@ h3 {
   color: var(--white);
 }
 
-p {
+/* text on the main page */
+.p-main {
   font-size: var(--text-font-size);
   font-weight: var(--text-font-weight);
   line-height: var(--text-line-height);
@@ -77,6 +79,7 @@ img {
   height: auto;
 }
 
+/** header **/
 .text-header {
   font-size: 18px;
   font-weight: 400;
@@ -136,6 +139,8 @@ img {
   margin-top: 5px;
 }
 
+
+/** content blocks **/
 .light-body {
   padding-left: 24px;
   padding-right: 24px;
@@ -150,13 +155,17 @@ img {
   border: 1px solid red;
 }
 
-.content-container {
+
+/* Main text on the main page (index.html)*/
+.main-content__container {
   margin-top: 50px;
   margin-bottom: 50px;
   border: 1px solid blue;
   position: relative;
 }
 
+
+/** Rösterei & Bio und Fair, Text mit Bilder **/
 .besucher-container {
   display: flex;
   flex-direction: row;
@@ -180,13 +189,65 @@ img {
   margin-top: 40px;
 }
 
+/** Entdecke unsere Kaffeesorten, Produktvorschau **/
 .section-products {
-  margin-top: 50px;
+  margin-top: 63px;
   margin-bottom: 50px;
-  border: 2px solid blue;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 60px;
+  background: var(--anthrazit);
+  border: 1px solid red;
   position: relative;
+  border: 1px solid red;
 }
 
+.section-products .flex-container-products {
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section-products .product {
+  width: calc((100% - 20px)/2);
+  margin-top: 40px;
+}
+
+/*
+.product .product-image-container {
+  background-color: (--white);
+  width: 100%;
+  border: 2px pink solid;
+}
+
+.product .product-image-container img {
+  width: 100%;
+}
+
+*/
+.subhead__m {
+  color: var(--white);
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.bodytext__m {
+  color: var(--grey);
+  font-size: 14px;
+  line-height: 18px;
+
+  @media (min-width: 568px) {
+    line height: 21px;
+  }
+
+  @media (min-width: 992px) {
+  line-height: 24px;
+  }
+}
+
+/**Herkunft**/
 .herkunft {
   background-image: url("../images/startseite/FEND-Coffee-bags-2.png");
   background-blend-mode: overlay;  
@@ -212,6 +273,8 @@ img {
   padding-bottom: 10px;
 }
 
+
+/** Das steckt drin **/
 .das-steckt-drin {
   margin-top: 50px;
   margin-bottom: 50px;

@@ -33,20 +33,23 @@
   </div>
 
   <main>
+
+
+      <!-- Rösterei & Bio und Fair, Text mit Bilder -->
     <div class="light-body">
-      <section class="content-container"> 
-        <h2>Rösterei & Café</h2>
-        <p> 
+      <section class="main-content__container"> 
+        <h2 class="h2-main">Rösterei & Café</h2>
+        <p class="p-main"> 
           Kaffee aus Kiel, direkt gehandelt und geröstet in der 
           eigenen Rösterei, serviert im gemütlichen Café in der
           Innenstadt.
         </p>
         <div class="besucher-container">
-          <p>
+          <p class="p-main">
             Komm uns besuchen! <br>
             Fraunhoferstr. 13, Kiel
           </p>
-          <p>
+          <p class="p-main">
             Mo – Fr 8–18 Uhr <br>
             Sa 11–18 Uhr
           </p>
@@ -58,9 +61,9 @@
           />
         </div>
       </section>
-      <section class="content-container">
-        <h2>Bio und Fair</h2>
-        <p> 
+      <section class="main-content__container">
+        <h2 class="h2-main">Bio und Fair</h2>
+        <p class="p-main"> 
           Weit hinten, hinter den Wortbergen, fern der Länder 
           Vokalien und Konsonantien leben die Blindtexte. Weit 
           hinten, hinter den Wortbergen, fern der Länder Vokalien 
@@ -75,18 +78,80 @@
         </div>
       </section>
     </div>
+    <!-- Entdecke unsere Kaffeesorten, Produktvorschau -->
+    <section class="section-products"> 
+      <h2 class="h2-main h2-white">
+        Entdecke unsere Kaffee Sorten         
+      </h2>
+      <div class="flex-container-products">
+          <article class="product">
+              <div class="product-image-container">
+                  <img class="product-image" 
+                  src="images/startseite/FEND_Coffee_Costa-Rica_1.png"
+                  alt ="Kaffee aus Costa Rica">
+              </div>
+              <p class="subhead__m">Costa Rica</p>
+              <p class="bodytext__m">6,90€ - 26,90€</p>
+              <section>
+                  <img src="">
+                  <img src="">
+                  <img src="">
+              </section>
+          </article>
+          <article class="product">
+              <div class="product-image-container">
+                <img class="product-image" 
+                src="images/startseite/FEND_Coffee_Costa-Rica_1.png"
+                alt ="Kaffee aus Costa Rica">
+              </div>
+              <p class="subhead__m">Costa Rica</p>
+              <p class="bodytext__m">6,90€ - 26,90€</p>
+              <section>
+                  <img src="">
+                  <img src="">
+                  <img src="">
+              </section>
+          </article>
+          <article class="product">
+              <div class="product-image-container">
+                <img class="product-image" 
+                src="images/startseite/FEND_Coffee_Costa-Rica_1.png"
+                alt ="Kaffee aus Costa Rica">
+              </div>
+              <p class="subhead__m">Costa Rica</p>
+              <p class="bodytext__m">6,90€ - 26,90€</p>
+              <section>
+                  <img src="">
+                  <img src="">
+                  <img src="">
+              </section>
+          </article>
+          <article class="product">
+              <div class="product-image-container">
+                <img class="product-image" 
+                src="images/startseite/FEND_Coffee_Costa-Rica_1.png"
+                alt ="Kaffee aus Costa Rica">
+              </div>
+              <p class="subhead__m">Costa Rica</p>
+              <p class="bodytext__m">6,90€ - 26,90€</p>
+              <section>
+                  <img src="">
+                  <img src="">
+                  <img src="">
+              </section>
+          </article>
+      </div>
+      <button>alle Produkte</button>
+    </section>
 
-    <div class="dark-body">
-      <section class="section-products"> 
-        <h2 class="h2-white">
-          Entdecke unsere <br>
-          Kaffee Sorten
-        </h2>
-      </section>
-    </div>
+
+
+
+
+    <!-- Herkunft -->
     <div class="light-body-wo-padding">
         <section class="herkunft">
-          <h2 class="h2-white">Herkunft</h2>
+          <h2 class="h2-main h2-white">Herkunft</h2>
           <p class="poem">
             Weit hinten, hinter den Wortbergen, <br>
             fern der Länder Vokalien und <br>
@@ -99,9 +164,12 @@
         </section>
     </div>
 
+
+
+    <!-- Das steckt drin-->
     <div class="light-body">
       <section class="das-steckt-drin">
-        <h2 class="h2-centered">Das steckt drin</h2>
+        <h2 class="h2-main h2-centered">Das steckt drin</h2>
         <img
           src="./images/startseite/FEND_Coffee_Costa-Rica_1.png"
           alt="Eine Packung unserer Kaffee-Sorte Costa Rica."
@@ -110,21 +178,21 @@
           src="./images/icons/icon_kaffee_tasse.svg"
           alt="Kaffee-Tasse"
         />
-        <p>
+        <p class="p-main">
           Bester Geschmack
         </p>
         <img
           src="./images/icons/icon_kaffee_schaufel.svg"
           alt="Kaffee-Schaufel"
         />
-        <p>
+        <p class="p-main">
           Fair gehandelt
         </p>
         <img
           src="./images/icons/icon_kaffee_pflanze.svg"
           alt="Kaffee-Pflanze"
         />
-        <p>
+        <p class="p-main">
           Bio Qualität
         </p>
         <a class="header-button" href="#">zum Shop</a>
