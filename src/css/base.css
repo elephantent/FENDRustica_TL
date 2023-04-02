@@ -156,14 +156,12 @@ img {
   padding-left: 24px;
   padding-right: 24px;
   background: var(--white);
-  border: 1px solid red;
 }
 
 .dark-body {
   padding-left: 24px;
   padding-right: 24px;
   background: var(--anthrazit);
-  border: 1px solid red;
 }
 
 
@@ -171,7 +169,6 @@ img {
 .main-content__container {
   margin-top: 50px;
   margin-bottom: 50px;
-  border: 1px solid blue;
   position: relative;
 }
 
@@ -214,7 +211,6 @@ img {
   padding-right: 24px;
   padding-top: 63px;
   background: var(--anthrazit);
-  border: 1px solid red;
   position: relative;
 
     @media (min-width: 992px) {
@@ -340,7 +336,6 @@ img {
 .das-steckt-drin {
   margin-top: 50px;
   margin-bottom: 50px;
-  border: 1px solid blue;
 }
 
 /* Komm vorbei Section*/
@@ -361,13 +356,12 @@ img {
 }
 
 
-/*footer Bereich -> nachlesen und verstehen*/
+/*footer Bereich */
 footer {
   background-color: var(--black);
   color: var(--white);
   padding: 60px 25px 50px 25px;
 
-  /*nachlesen: woher px angaben kommen*/
   @media (min-width: 900px) {
     display: flex;
     padding: 211px 25px 183px 25px;
@@ -393,7 +387,8 @@ footer {
 
 .footer-logo {
   margin-bottom: 1rem;
-  width: 70px;
+  width: 35px;
+
   filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
 
   @media (min-width: 900px) {
